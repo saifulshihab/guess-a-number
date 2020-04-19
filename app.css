@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.content_wrapper {
+  margin: 0 auto;
+  width: 960px;
+  margin-top: 50px;
+}
+#users_num {
+  width: 60px;
+  height: 60px;
+  background: thistle;
+  margin: 0 auto;
+  border: 2px solid purple;
+  border-radius: 10px;
+}
+#number {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  font-size: 56px;
+  color: purple;
+  text-align: center;
+}
+.content_wrapper p {
+  margin: 0 auto;
+  color: teal;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 34px;
+}
+#result_box {
+  margin-top: 3%;
+  text-align: center;
+  font-size: 34px;
+  color: tomato;
+}
+button {
+  color: #473e4f;
+  background: bisque;
+  border: 1px solid pink;
+  padding: 10px 35px;
+  display: inherit;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 40px;
+  outline: none;
+}
+button:active {
+  background-color: violet;
+  transition: 0.2s all ease;
+}
+.chb {
+  color: rgb(129, 129, 129);
+}
