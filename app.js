@@ -29,7 +29,7 @@ const gameStart = () => {
       document.getElementById("number").innerHTML = number;
       document.getElementById(
         "result_box"
-      ).innerHTML = `Genius! Your guess is correct. You have tried ${userTry} times.`;
+      ).innerHTML = `Your guess is correct. You have tried ${userTry} times. Try without hints :)`;
       computerGuess = false;
       userTry = 1;
       document.getElementById("getHints").checked = false;
